@@ -2,8 +2,9 @@
   "name": "functions",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "pushWorker.js",
   "scripts": {
+    "start": "node pushWorker.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -19,3 +20,4 @@
     "pg": "^8.13.3"
   }
 }
+
